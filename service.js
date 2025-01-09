@@ -1,20 +1,15 @@
-const points = []
+import PointOfInteress from './pointOfInteress.js';
 
-export function Save(name, pointX, pointY) {
-    let point = {
-        name: name,
-        pointX: pointX,
-        pointY: pointY,
-    }
-    points.push(point);
+export async function Save(name, pointX, pointY) {
+    return await PointOfInteress.create({name, pointX, pointY});
 }
 
-export function GetAll() {
-    return points;
+export async function GetAll() {
+    return await PointOfInteress.findAll();
 }
 
-export function  GetAllCloseTo(pointX, pointY, radius) {
-    var list = GetAll()
+export async function GetAllCloseTo(pointX, pointY, radius) {
+    var list = await GetAll()
 
     return list.filter((item) => {
         return calcularDistancia(item.pointX, item.pointY, pointX, pointY) <= radius;

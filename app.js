@@ -12,16 +12,16 @@ app.post('/', (req, res) => {
     res.sendStatus(200);
 })
 
-app.get('/', (req, res) => {
-    var lista = GetAll();
+app.get('/GetAll', async (req, res) => {
+    var lista = await GetAll();
     res.send(lista);
 })
 
-app.get('/GetAllClose', (req
-                         , res) => {
-    const { pointX, pointY, radius } = req.body;
+app.get('/GetAllClose', async (req
+    , res) => {
+    const {pointX, pointY, radius} = req.body;
 
-    var lista = GetAllCloseTo(pointX, pointY, radius);
+    var lista = await GetAllCloseTo(pointX, pointY, radius);
     res.send(lista);
 })
 
