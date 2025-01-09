@@ -1,6 +1,10 @@
 import PointOfInteress from './pointOfInteress.js';
 
 export async function Save(name, pointX, pointY) {
+    if (pointX < 0 || pointY < 0) {
+        throw new Error('Points must be greater than 0');
+    }
+
     return await PointOfInteress.create({name, pointX, pointY});
 }
 

@@ -8,8 +8,9 @@ app.use(express.json());
 
 app.post('/', (req, res) => {
     const {name, pointX, pointY} = req.body;
-    Save(name,pointX,pointY);
-    res.sendStatus(200);
+    Save(name,pointX,pointY).then(p => {
+            res.send(p).status(201);
+    }).catch(err => res.status(400).send({error: err.message}));
 })
 
 app.get('/GetAll', async (req, res) => {
