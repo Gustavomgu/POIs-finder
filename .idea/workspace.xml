@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63934f5-35aa-4cdb-8e21-91439a3ebed1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/controller.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/service.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="Dockerfile" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Jest.calcularDistancia.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.app.ts.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.server.ts.executor&quot;: &quot;Run&quot;,
@@ -49,6 +53,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Projetos/POIs-finder/node_modules/jest&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -59,12 +64,25 @@
       <recent name="C:\Projetos\POIs-finder\src\models" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.calcularDistancia">
+    <configuration name="calcularDistancia" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/service.test.js" />
+      <test-names>
+        <test-name value="calcularDistancia" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.calcularDistancia" />
         <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
@@ -90,7 +108,8 @@
       <workItem from="1736218745532" duration="70000" />
       <workItem from="1736219221774" duration="2429000" />
       <workItem from="1736299428152" duration="2710000" />
-      <workItem from="1736383838007" duration="3530000" />
+      <workItem from="1736383838007" duration="4095000" />
+      <workItem from="1736465689752" duration="159000" />
     </task>
     <servers />
   </component>
