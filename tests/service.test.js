@@ -1,4 +1,3 @@
-// tests/utils/calcularDistancia.test.js
 const service = require('../service');
 
 describe('calcularDistancia', () => {

@@ -2,14 +2,13 @@ import express from "express";
 import {Save, GetAll, GetAllCloseTo} from './service.js';
 
 const app = express()
-const port = 3000
 
 app.use(express.json());
 
 app.post('/', (req, res) => {
     const {name, pointX, pointY} = req.body;
     Save(name,pointX,pointY).then(p => {
-            res.send(p).status(201);
+            res.status(201).send(p);
     }).catch(err => res.status(400).send({error: err.message}));
 })
 
@@ -26,6 +25,4 @@ app.get('/GetAllClose', async (req
     res.send(lista);
 })
 
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
+export default app;
