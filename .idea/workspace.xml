@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d63934f5-35aa-4cdb-8e21-91439a3ebed1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointOfInteress.js" beforeDir="false" afterPath="$PROJECT_DIR$/pointOfInteress.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Dockerfile" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2rHPEtOZoTpDnMyWSFmVxKYSQjx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Jest.Testes para as rotas da API (1).executor": "Run",
+    "Jest.Testes para as rotas da API.executor": "Run",
+    "Jest.calcularDistancia.executor": "Run",
+    "Node.js.app.js.executor": "Run",
+    "Node.js.app.ts.executor": "Run",
+    "Node.js.server.js.executor": "Run",
+    "Node.js.server.ts.executor": "Run",
+    "Node.js.service.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Projetos/POIs-finder",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Projetos/POIs-finder/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\POIs-finder\src\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Tests in tests\">
+    <configuration name="Testes para as rotas da API (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/controller.test.js" />
+      <test-names>
+        <test-name value="Testes para as rotas da API" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testes para as rotas da API" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/app.js" />
+      <test-names>
+        <test-name value="Testes para as rotas da API" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in tests\" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="DIRECTORY" />
+      <test-directory value="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calcularDistancia" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/service.test.js" />
+      <test-names>
+        <test-name value="calcularDistancia" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="PORT" value="3000" />
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_USER" value="root" />
+        <env name="DB_PASSWORD" value="root" />
+        <env name="DB_NAME" value="meu_banco" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.Tests in tests\" />
+      <item itemvalue="Jest.calcularDistancia" />
+      <item itemvalue="Jest.Testes para as rotas da API" />
+      <item itemvalue="Jest.Testes para as rotas da API (1)" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Tests in tests\" />
+        <item itemvalue="Jest.Testes para as rotas da API (1)" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Jest.Testes para as rotas da API" />
+        <item itemvalue="Jest.calcularDistancia" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d63934f5-35aa-4cdb-8e21-91439a3ebed1" name="Changes" comment="" />
+      <created>1736212919501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736212919501</updated>
+      <workItem from="1736212921482" duration="257000" />
+      <workItem from="1736213367747" duration="2301000" />
+      <workItem from="1736216034199" duration="933000" />
+      <workItem from="1736218745532" duration="70000" />
+      <workItem from="1736219221774" duration="2429000" />
+      <workItem from="1736299428152" duration="2710000" />
+      <workItem from="1736383838007" duration="4095000" />
+      <workItem from="1736465689752" duration="2352000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/server.js" />
+      </list>
+    </option>
+  </component>
+</project>
