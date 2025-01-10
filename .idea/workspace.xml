@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63934f5-35aa-4cdb-8e21-91439a3ebed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/controller.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/controller.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/service.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/service.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <recent name="C:\Projetos\POIs-finder\src\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Testes para as rotas da API (1)">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="Testes para as rotas da API (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -108,9 +103,19 @@
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="PORT" value="3001" />
+      </envs>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Jest.calcularDistancia" />
+      <item itemvalue="Jest.Testes para as rotas da API" />
+      <item itemvalue="Jest.Testes para as rotas da API (1)" />
+      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Jest.Testes para as rotas da API (1)" />
@@ -143,7 +148,7 @@
       <workItem from="1736219221774" duration="2429000" />
       <workItem from="1736299428152" duration="2710000" />
       <workItem from="1736383838007" duration="4095000" />
-      <workItem from="1736465689752" duration="1347000" />
+      <workItem from="1736465689752" duration="1500000" />
     </task>
     <servers />
   </component>
