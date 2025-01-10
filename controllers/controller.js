@@ -1,4 +1,4 @@
-import { Save, GetAll, GetAllCloseTo } from './service.js';
+import { Save, GetAll, GetAllCloseTo } from '../services/service.js';
 
 export const createPoint = async (req, res) => {
     try {

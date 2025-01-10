@@ -1,8 +1,8 @@
 import request from 'supertest';
 import app from '../app';
-import * as service from '../service';
+import * as service from '../services/service';
 
-jest.mock('../service');
+jest.mock('../services/service');
 
 describe('Testes para as rotas da API', () => {
 

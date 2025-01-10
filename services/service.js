@@ -1,4 +1,4 @@
-import PointOfInteress from './pointOfInteress.js';
+import PointOfInteress from '../database/pointOfInteress.js';
 
 export async function Save(name, pointX, pointY) {
     if (pointX < 0 || pointY < 0) {

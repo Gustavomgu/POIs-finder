@@ -1,4 +1,4 @@
-const service = require('../service');
+const service = require('../services/service');
 
 describe('calcularDistancia', () => {
     it('deve calcular a distância corretamente entre dois pontos', () => {
