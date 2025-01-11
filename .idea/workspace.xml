@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63934f5-35aa-4cdb-8e21-91439a3ebed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointOfInteress.js" beforeDir="false" afterPath="$PROJECT_DIR$/pointOfInteress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,37 +36,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Jest.Testes para as rotas da API (1).executor": "Run",
-    "Jest.Testes para as rotas da API.executor": "Run",
-    "Jest.calcularDistancia.executor": "Run",
-    "Node.js.app.js.executor": "Run",
-    "Node.js.app.ts.executor": "Run",
-    "Node.js.server.js.executor": "Run",
-    "Node.js.server.ts.executor": "Run",
-    "Node.js.service.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Projetos/POIs-finder",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "C:/Projetos/POIs-finder/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.Testes para as rotas da API (1).executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Testes para as rotas da API.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Tests in tests\\.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.calcularDistancia.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.app.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.server.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.service.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projetos/POIs-finder&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Projetos/POIs-finder/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\POIs-finder\database" />
+      <recent name="C:\Projetos\POIs-finder\controllers" />
+      <recent name="C:\Projetos\POIs-finder\services" />
       <recent name="C:\Projetos\POIs-finder\src\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Tests in tests\">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="Testes para as rotas da API (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -130,9 +135,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="Jest.Tests in tests\" />
         <item itemvalue="Jest.Testes para as rotas da API (1)" />
-        <item itemvalue="Node.js.server.js" />
         <item itemvalue="Jest.Testes para as rotas da API" />
         <item itemvalue="Jest.calcularDistancia" />
       </list>
@@ -160,17 +165,13 @@
       <workItem from="1736219221774" duration="2429000" />
       <workItem from="1736299428152" duration="2710000" />
       <workItem from="1736383838007" duration="4095000" />
-      <workItem from="1736465689752" duration="2352000" />
+      <workItem from="1736465689752" duration="3625000" />
+      <workItem from="1736471196108" duration="33000" />
+      <workItem from="1736606657089" duration="1582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/server.js" />
-      </list>
-    </option>
   </component>
 </project>
