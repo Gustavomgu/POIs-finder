@@ -21,7 +21,7 @@ export const getAllPoints = async (req, res) => {
 
 export const getAllClosePoints = async (req, res) => {
     try {
-        const { pointX, pointY, radius } = req.body;
+        const { pointX, pointY, radius } = req.query;
         const points = await GetAllCloseTo(pointX, pointY, radius);
         res.status(200).send(points);
     } catch (err) {
