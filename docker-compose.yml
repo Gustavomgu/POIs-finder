@@ -14,5 +14,21 @@ services:
       - postgres_data:/var/lib/postgresql/data
     restart: always
 
+  node:
+    build:
+      context: ./src
+    container_name: meu_node_container
+    ports:
+      - "3000:3000"
+    environment:
+      DB_HOST: postgres
+      DB_NAME: meu_banco
+      DB_PASSWORD: root
+      DB_USER: root
+      PORT: 3000
+    depends_on:
+      - postgres
+    restart: always
+
 volumes:
   postgres_data:
